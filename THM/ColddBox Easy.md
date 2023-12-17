@@ -152,7 +152,7 @@ sudo /usr/bin/vim
 <ENTER>
 ```
 
-- The user flag is in `/home/c0ldd/user.txt
+- The user flag is in `/home/c0ldd/user.txt`
 - The root flag is in `/root/root.txt`
 
 **NOTE**: I identified multiple ways to get on this system.
