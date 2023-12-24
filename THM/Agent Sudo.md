@@ -88,7 +88,7 @@ hydra -l chris -P /usr/share/wordlists/rockyou.txt 10.10.132.55 ftp
 ```
 
 ```
-[21][ftp] host: 10.10.132.55   login: chris   password: {redacted}
+[21][ftp] host: 10.10.132.55   login: chris   password: crystal
 ```
 
 - After logging in to `ftp`, we're able to find some files.
@@ -158,15 +158,15 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 ```To_agentR.txt
 Agent C,
 
-We need to send the picture to 'Q{redacted}x' as soon as possible!
+We need to send the picture to 'QXJlYTUx' as soon as possible!
 
 By,
 Agent R
 ```
 
-- I've tried using `Q{redacted}x` as the passphrase asked when running `steghide --extract -sf cute-alien.jpg`, but it didn't work.
+- I've tried using `QXJlYTUx` as the passphrase asked when running `steghide --extract -sf cute-alien.jpg`, but it didn't work.
 
-- It looks a bit like `base64` and using `echo "Q{redacted}x" | base64 -d` against the string reveals `A{redacted}1` in ASCII - that's the secret.
+- It looks a bit like `base64` and using `echo "QXJlYTUx" | base64 -d` against the string reveals `Area51` in ASCII - that's the secret.
 
 ```
 steghide --extract -sf cute-alien.jpg 
@@ -177,7 +177,7 @@ wrote extracted data to "message.txt".
 ```message.txt
 Hi james,
 
-Glad you find this message. Your login password is {redacted}!
+Glad you find this message. Your login password is hackerrules!
 
 Don't ask me why the password look cheesy, ask agent R who set this password for you.
 
@@ -185,7 +185,7 @@ Your buddy,
 chris
 ```
 
-- So we've got ourselves a pair of credentials: `james:{redacted}!`
+- So we've got ourselves a pair of credentials: `james:hackerrules!`
 
 - `sudo -l` has an interesting output, but let's focus on getting the 1st flag first.
 
