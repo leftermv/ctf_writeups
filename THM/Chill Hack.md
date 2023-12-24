@@ -185,7 +185,7 @@ echo "Thank you for your precious time!"
 		session_start();
 		try
 		{
-			$con = new PDO("mysql:dbname=webportal;host=localhost","root","!@m+her00+@db");
+			$con = new PDO("mysql:dbname=webportal;host=localhost","root","{redacted}");
 			$con->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
 		}
 		catch(PDOException $e)
@@ -205,7 +205,7 @@ echo "Thank you for your precious time!"
 </html>
 ```
 
-- We see that there's a mysql connection to the `webportal` db using the credentials `root:!@m+her00+@db`
+- We see that there's a mysql connection to the `webportal` db using the credentials `root:{redacted}`
 
 - Also, if the login is successful, we're redirected to `hacker.php`.
 
@@ -262,7 +262,7 @@ john zipcrack
 - The zip contained a file called `source_code.php` which contained the following line
 
 ```
-if(base64_encode($password) == "IWQwbnRLbjB3bVlwQHNzdzByZA==")
+if(base64_encode($password) == "{redacted}==")
 {
 	// rest of the code
 	{
@@ -272,7 +272,7 @@ if(base64_encode($password) == "IWQwbnRLbjB3bVlwQHNzdzByZA==")
 ```
 
 ```
-echo "IWQwbnRLbjB3bVlwQHNzdzByZA==" | base64 -d
+echo "{redacted}==" | base64 -d
 
 !d0{redacted}rd
 ```
