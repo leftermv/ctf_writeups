@@ -1,6 +1,6 @@
 # CTF Writeups
 
-Hi there. This is a repository that I will (hopefully) update with new writeups as I learn new stuff. 
+Hi there. This is a repository that I will (hopefully) update with more writeups as I learn new stuff. 
 
 I do this as a way to make sure I'll do my best to learn in order to be able to provide a complete and correct write up for the CTFs I'm making and to serve me as reference later in time.
 
