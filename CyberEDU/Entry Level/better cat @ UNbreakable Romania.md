@@ -14,6 +14,6 @@ __isoc99_scanf(0x562134000a56, 0x7ffeb325c0a0, 0, 0The password is: 7481
 strcmp("7481", "{redacted}")                                                                                 = -57
 ```
 
-**NOTE**: for you own safety, don't open that youtube link :)
+**NOTE**: for your own safety, don't open that youtube link :)
 
 - Run the program again and use the password found in the `strcmp` function as input to get the flag.
