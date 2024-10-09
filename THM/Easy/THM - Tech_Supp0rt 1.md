@@ -1,3 +1,6 @@
+---
+parent: "[[CTFs - THM]]"
+---
 ```bash
 # PLATFORM          . THM
 # CTF NAME          . Tech_Supp0rt: 1

@@ -1,3 +1,6 @@
+---
+parent: "[[CTFs - THM]]"
+---
 ```bash
 # PLATFORM          . THM
 # CTF NAME          . Confidential
@@ -8,7 +11,7 @@
 
 - The PDF contains a QR code that is overlapped by another image, so we can't scan it.
 
-- The CTF is booting on THM's attack box and I don't like workint there ; plus, I don't have the tools required installed.
+- The CTF is booting on THM's attack box and I don't like working there ; plus, I don't have the tools required installed.
 
 - I've transfered the file to my host using netcat
 

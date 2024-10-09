@@ -1,3 +1,6 @@
+---
+parent: "[[CTFs - THM]]"
+---
 ```bash
 # PLATFORM          . THM
 # CTF NAME          . Thompson
@@ -30,7 +33,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 #### PORT 8009 
 
-- I tried exploiting the `ghostcat` vulnerability since the Jserv Protocol is open but it didn't reveal any credentials. More details in [[Tomghost]] ; pretty much exact scenario so far.
+- I tried exploiting the `ghostcat` vulnerability since the Jserv Protocol is open but it didn't reveal any credentials. More details in [[THM - Tomghost]] ; pretty much exact scenario so far.
 
 #### PORT 8080
 
